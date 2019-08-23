@@ -9,9 +9,15 @@
 </head>
 <style>
 
+    h1 {
+        text-align: center;
+        color: darkolivegreen;
+    }
+
     .text {
         color: plum;
         font-size: 20px;
+        text-align: center;
     }
 
     .block {
@@ -20,8 +26,12 @@
 
     .picture {
         text-align: center;
+        display: grid;
     }
 
+    .list .picture {
+        text-align: left;
+    }
     .btn {
         text-align: center;
     }
@@ -72,6 +82,23 @@
 
 <div class="block">
     <div>
+        <p>4. Какой тортик тебе хочется?</p>
+    </div>
+    <div class="list">
+
+        <p class="picture">1. Чизкейк<img src="https://image.shutterstock.com/image-photo/homemade-cheesecake-fresh-berries-mint-600w-631520744.jpg" alt="cheesecake"></p>
+        <p class="picture">2. Шоколадный<img src="https://image.shutterstock.com/image-photo/piece-chocolate-cake-mint-on-600w-347770127.jpg" alt="chococake"></p>
+
+    </div>
+    <p><input type="checkbox" name="options" id="check11"><label for="check11">1</label></p>
+    <p><input type="checkbox" name="options" id="check12"><label for="check12">2</label></p>
+    <p><input type="checkbox" name="options" id="check14"><label for="check14">никакой :(</label></p>
+</div>
+
+<br>
+
+<div class="block">
+    <div>
         <p>4. Расскажи о себе подробнее в этом окошке: </p>
     </div>
     <textarea name="textAboutYou" cols="50" rows="10"></textarea>
@@ -84,7 +111,7 @@
 </div>
 <br>
 <div class="picture">
-    <img src="img/отлично.jpg" alt="Good job">
+    <img src="https://birdinflight.imgix.net/wp-content/uploads/2018/05/emilia-clar-vanity-fair-stock-photos_01.jpg?fm=pjpg&q=80&fit=crop&crop=faces&w=630&h=446" alt="Good job">
 </div>
 
 </body>
